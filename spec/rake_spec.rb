@@ -6,7 +6,6 @@ describe "Rakefile" do
   before(:all) do
     load File.expand_path("../../Rakefile", __FILE__)
   end
-
   describe 'namespace :greeting' do
     describe 'greeting:hello' do
       it "should print out 'hello from Rake!'" do
